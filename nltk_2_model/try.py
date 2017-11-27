@@ -36,7 +36,7 @@ def cosine(x,y):
 		return 1
 
 #modelpath = raw_input("Please input the PATH to model folder") or "/home/jalen/github/AITeamProject/model"
-modelpath = "/home/jalen/github/AITeamProject/model"
+modelpath = "/home/kellylei/github/AITeamProject/model"
 model = gensim.models.Word2Vec.load_word2vec_format(modelpath + '/'+'GoogleNews-vectors-negative300.bin.gz', binary=True)
 #model =  gensim.models.Word2Vec.load('gmodel')
 model2 = gensim.models.Word2Vec.load_word2vec_format(modelpath + '/'+'freebase-vectors-skipgram1000.bin.gz', binary=True)
